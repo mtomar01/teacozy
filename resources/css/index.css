@@ -14,14 +14,20 @@ body {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  z-index: 2;
+  background-color: black;
+  padding-top: 25px;
+  margin-top: -30px;
 }
 .header--logo {
   height: 50px;
-  margin-left: 10px;
-  margin-right: auto;
+  margin: 12px auto 0 10px;
 }
 .header--navbar{
-margin-right: 15px;
+margin: 15px 15px 0 0;
+}
+.header--navbar span {
+  margin: 0 10px;
 }
 .header--navbar a{
   text-decoration: underline;
@@ -29,7 +35,25 @@ margin-right: 15px;
 }
 
 /* Jumbotron */
-
+.jumbotron--container {
+  position: relative;
+  top: 65px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+.jumbotron--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+}
+.jumbotron--text h2, .jumbotron--text h4 {
+  margin: 8px 0;
+}
 
 
 
