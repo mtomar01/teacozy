@@ -5,6 +5,8 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  width: 1280px;
+  overflow: scroll;
 }
 
 /* HEADINGS */
@@ -42,6 +44,7 @@ margin: 15px 35px 0 0;
   background-image: url("../images/img-mission-background.jpg");
   display: flex;
   align-items: center;
+  margin: 0 60px -50px 40px
 }
 .jumbotron--text {
   display: flex;
@@ -58,6 +61,7 @@ margin: 15px 35px 0 0;
 /* Featured tea */
 .featuredtea {
   margin-top: 150px;
+  padding-top: 50px;
 }
 .featuredtea h4 {
   margin-top: -10px;
@@ -83,7 +87,7 @@ margin: 15px 35px 0 0;
 
 /* Locations */
 .locations {
-  margin-top: 40px;
+  margin: 40px 60px 0 40px;
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
 }
